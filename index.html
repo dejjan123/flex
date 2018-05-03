@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Landing Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="jquery-3.1.1.min.js"></script>
+   <script src="main.js"></script>
+</head>
+<body>
+
+      <div class="bg-image">
+        <div class="gradient"></div>
+          <div class="container" id="prv">
+              <div class="header">
+                <div class="logo"><img src="logo2.png"></div>
+                    <nav>
+                      <ul>
+                        <li><a href="#prv">Pocetna</a></li>
+                        <li><a href="#vtor">Trener</a></li>
+                        <li><a href="#tret">Galerija</a></li>
+                        <li><a href="#cetvrt">Info</a></li>
+                      </ul>
+                    </nav>
+                  <button class="btn"><a href="#peti">Kontakt</a></button>
+                </div>
+              <h1 class="brand-quote">Plivacki klub</h1>
+              <h2 class="brand-quote nov">Nemo</h2>
+              <p class="para">Vrsime upis na novi clenovi <br> Plivaci i neplivaci</p>
+          </div>
+
+      </div>
+
+    <div class="section" id="vtor">
+      <div class="trener"></div>
+      <div class="ime">
+        <h1><a href="https://www.facebook.com/profile.php?id=100017363174057&lst=1650314520%3A100017363174057%3A1525316497" target="_blank">Darko Davidovski</a></h1>
+        <p>Diplomiran profesor po Fizicko i zdravstveno obrazovanie</p>
+      </div>
+    </div>
+      
+    
+    <div class="section1" id="tret">
+        <!-- Photo Grid -->
+      <div class="grid">
+        <img src="slike/1.jpg">
+        <img src="slike/2.jpg">
+        <img src="slike/3.jpg">
+        <img src="slike/4.jpg">
+        <img src="slike/5.jpg">
+        <img src="slike/6.jpg">
+        <img src="slike/7.jpg">
+        <img src="slike/8.jpg">
+        <img src="slike/9.jpg">
+        <img src="slike/10.jpg">
+        <img src="slike/11.jpg">
+        <img src="slike/12.jpg">
+        <img src="slike/13.jpg">
+        <img src="slike/14.jpg">
+        <img src="slike/15.jpg">
+        <img src="slike/16.jpg">
+        <img src="slike/17.jpg">
+        <img src="slike/18.jpg">
+        <img src="slike/19.jpg">
+        <img src="slike/20.jpg">
+      </div>
+  </div>
+
+  <div class="section2" id="cetvrt">
+    <div class="info">
+      <h1>Plivacki Klub Nemo vrsi upis na novi clenovi</h1>
+      <p>Termini</p>
+      <ul>
+        <li>Vtornik: 18:30-19:30</li>
+        <li>Cetvrtok: 18:30-19:30</li>
+        <li>Sabota: 10:00-11:00</li>
+        <li>Nedela: 10:00-11:00</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="pimg3">
+    
+  </div>
+
+  <div class="section3" id="peti">
+    <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4976.2738731373565!2d21.720650474846593!3d42.1308067511025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13544e3ab19a0199%3A0x43e70ceb1a74bfcd!2sGradski+Bazen+Kumanovo!5e0!3m2!1sen!2smk!4v1525357768484" width="400" height="300" frameborder="0" style="border:2" allowfullscreen></iframe>
+    </div>
+    <div class="povrzi">
+        <h1>Kontakt</h1>
+        <a href="https://www.facebook.com/plivackiklubnem0/" target="_blank">Facebook</a><br>
+        <a href="https://www.instagram.com/plivackiklubnemo/" target="_blank">Instagram</a>
+    </div>
+  </div>
+
+    <script type="text/javascript" src="gridify.js"></script>  
+    <script type="text/javascript">
+    window.onload = function(){
+        var options =
+        {
+            srcNode: 'img',             // grid items (class, node)
+            margin: '20px',             // margin in pixel, default: 0px
+            width: '330px',             // grid item width in pixel, default: 220px
+            max_width: '',              // dynamic gird item width if specified, (pixel)
+            resizable: true,            // re-layout if window resize
+            transition: 'all 0.5s ease' // support transition for CSS3, default: all 0.5s ease
+        }
+        document.querySelector('.grid').gridify(options);
+    }
+</script>
+</body>
+</html>
+
+<!-- od  www.colorzilla.com > generator > neutral density > Opacity 100 > Location 5 -->
